@@ -18,7 +18,7 @@ url:            'http://blog.gregttn.com'
 author:         'Grzegorz Tatarzyn'
 authorTwitter:  'gregttn'
 
-permalink:       /:year/:month/:title/
+gems: [jekyll-paginate]
 
 defaults:
     -
