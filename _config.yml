@@ -9,7 +9,7 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://gregttn.github.io'
+domain_name: 'http://blog.gregttn.com'
 google_analytics: 'UA-24283196-4'
 disqus_shortname: 'your-disqus-shortname'
 
