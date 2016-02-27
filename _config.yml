@@ -1,0 +1,35 @@
+name: Grzegorz Tatarzyn
+description: Greg on programming
+meta_description: "Greg on programming"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://gregttn.github.io'
+google_analytics: 'UA-24283196-4'
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://blog.gregttn.com'
+author:         'Grzegorz Tatarzyn'
+authorTwitter:  'gregttn'
+
+permalink:       /:year/:month/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
