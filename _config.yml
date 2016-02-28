@@ -9,12 +9,12 @@ highlighter: rouge
 
 paginate: 20
 baseurl: /
-domain_name: 'http://blog.gregttn.com'
+domain_name: 'http://gregttn.com'
 google_analytics: 'UA-24283196-4'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://blog.gregttn.com'
+url:            'http://gregttn.com'
 author:         'Grzegorz Tatarzyn'
 authorTwitter:  'gregttn'
 
