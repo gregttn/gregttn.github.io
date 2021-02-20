@@ -3,8 +3,6 @@ description: My name is Greg, I build software.
 meta_description: "Greg on programming"
 aboutPage: true
 
-highlighter: rouge
-
 paginate: 20
 domain_name: 'https://gregttn.com'
 google_analytics: 'UA-24283196-4'
