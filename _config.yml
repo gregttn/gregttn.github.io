@@ -1,4 +1,4 @@
-name: Grzegorz Tatarzyn
+title: Grzegorz Tatarzyn
 description: My name is Greg, I build software.
 meta_description: "Greg on programming"
 aboutPage: true
@@ -7,15 +7,16 @@ highlighter: rouge
 
 paginate: 20
 baseurl: /
-domain_name: 'http://gregttn.com'
+domain_name: 'https://gregttn.com'
 google_analytics: 'UA-24283196-4'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://gregttn.com'
+url:            'https://gregttn.com'
 author:         'Grzegorz Tatarzyn'
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate,jekyll-github-metadata]
+repository: gregttn/gregttn.github.io
 
 github_user: gregttn
 social:
