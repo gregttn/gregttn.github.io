@@ -1,15 +1,13 @@
 <div class="social">
-	<h3>Contact me</h3>
-
-	<ul class="social_accounts">
+	<ul class="social-accounts">
 		<li>
-			<i class="fa fa-twitter"></i><a href="http://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a>
+			<i class="fa fa-github"></i><a href="http://github.com/{{ site.github_user }}">{{ site.github_user }}</a>
 		</li>
 		<li>
-			<i class="fa fa-github"></i><a href="http://github.com/{{ page.github_user }}">{{ page.github_user }}</a>
+			<i class="fa fa-twitter"></i><a href="http://twitter.com/{{ site.social.twitter }}">@{{ site.social.twitter }}</a>
 		</li>
 		<li>
-			<i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/gregttn">{{ site.author }}</a>
+			<i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.author }}</a>
 		</li>
 	</ul>
 </div>

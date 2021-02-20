@@ -1,5 +1,5 @@
 name: Grzegorz Tatarzyn
-description: Greg on programming
+description: My name is Greg, I build software.
 meta_description: "Greg on programming"
 aboutPage: true
 
@@ -14,9 +14,13 @@ disqus_shortname: 'your-disqus-shortname'
 # Details for the RSS feed generator
 url:            'http://gregttn.com'
 author:         'Grzegorz Tatarzyn'
-authorTwitter:  'gregttn'
 
 plugins: [jekyll-paginate]
+
+github_user: gregttn
+social:
+  twitter: gregttn
+  linkedin: gregttn
 
 defaults:
     - scope:
