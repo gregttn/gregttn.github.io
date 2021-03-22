@@ -151,8 +151,26 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .icon-facebook-rect:before { content: '\e803'; }
 
 /* Spacing */
-.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
-margin-bottom: 20px;
+.post h1, h3, h4, h5, .post-body ul, #post-list li, pre {
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+
+/* Spacing */
+.post p {
+margin-bottom: 0;
+margin-top: 10px;
+}
+
+.post li > p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.post li > div {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 /* Base */
@@ -292,7 +310,11 @@ a,
 }
 
 ul 	{ margin:0; padding:0; }
-li	{ list-style-type:circle; list-style-position:inside; }
+li	{ 
+	list-style-position: outside;
+	margin-left: 1em; 
+}
+
 
 ul.social-accounts li {
 	list-style-type: none;	
