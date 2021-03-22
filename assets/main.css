@@ -164,13 +164,13 @@ margin-top: 10px;
 }
 
 .post li > p {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .post li > div {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /* Base */
