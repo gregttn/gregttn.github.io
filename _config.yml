@@ -19,6 +19,9 @@ social:
   twitter: gregttn
   linkedin: gregttn
 
+disqus:
+  shortname: gregttn
+
 defaults:
     - scope:
         path: "" # empty string for all files
